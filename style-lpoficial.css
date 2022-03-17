@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+:root {
+    --main-bg-color:'Audiowide', cursive;
+  }
+
 body{
     height: 100vh;
     background-image: url(images/93fa7d96b0e3d2254a7998eae1f19041.jpg);
@@ -31,4 +37,35 @@ ul{
     align-items: center;
     justify-content: space-around;
     list-style:none ;
+}
+
+section{
+    background-image: url(images/photo-1624696941338-934bf86c28b4.avif);
+    border-radius: 10px;
+    box-shadow: 0 0 1em #5c06b8;
+    font-family:var(--main-bg-color);
+    color: white;
+    width: 700px;
+    margin: auto;
+    height: 450px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+    display: grid;
+    grid-template-areas: 
+    ".myname .myphoto";
+}
+
+h1{
+    color: white;
+    
+}
+
+.myname{
+    grid-area: myname;
+}
+
+.myphoto{
+    grid-area: myphoto;
 }
