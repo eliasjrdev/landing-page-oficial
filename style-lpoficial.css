@@ -41,9 +41,11 @@ ul{
 
 section{
     background-image: url(images/photo-1624696941338-934bf86c28b4.avif);
+    background-position: center center;
+    background-size: cover;
     border-radius: 10px;
     box-shadow: 0 0 1em #5c06b8;
-    font-family:var(--main-bg-color);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     width: 700px;
     margin: auto;
@@ -51,10 +53,10 @@ section{
     margin-top: 20px;
     display: flex;
     align-items: center;
-
     display: grid;
     grid-template-areas: 
-    ".myname .myphoto";
+    ".myname .myphoto"
+    ".buttons .myphoto";
 }
 
 h1{
@@ -64,8 +66,32 @@ h1{
 
 .myname{
     grid-area: myname;
+    background-color: #5c06b86e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom:-175px;
 }
 
 .myphoto{
     grid-area: myphoto;
+}
+
+.buttons{
+    grid-area:buttons;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+button{
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    background-color: #5c06b8ea;
+    border: 0;
 }
