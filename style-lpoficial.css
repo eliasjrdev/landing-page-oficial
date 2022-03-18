@@ -1,17 +1,26 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Londrina+Solid:wght@100&family=Permanent+Marker&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root {
+    --font1: 'Permanent Marker', cursive;
+    --font2: 'Capriola', sans-serif;
+    --font3: 'Bebas Neue', cursive;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-
-:root {
-    --main-bg-color:'Audiowide', cursive;
-  }
-
 body{
     height: 100vh;
-    background-image: url(images/93fa7d96b0e3d2254a7998eae1f19041.jpg);
+    background-image: url(images/30.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
@@ -40,12 +49,11 @@ ul{
 }
 
 section{
-    background-image: url(images/photo-1624696941338-934bf86c28b4.avif);
+    background-image: url(images/);
     background-position: center center;
     background-size: cover;
     border-radius: 10px;
     box-shadow: 0 0 1em #5c06b8;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     width: 700px;
     margin: auto;
@@ -61,15 +69,27 @@ section{
 
 h1{
     color: white;
-    
+    font-family: var(--font3);
+    font-size: 3em;
+}
+
+h2{
+    font-family: var(--font1);
 }
 
 .myname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     grid-area: myname;
-    background-color: #5c06b86e;
-    padding: 20px;
+    background-color:#5c06b8dc ;
+    padding: 10px;
     border-radius: 8px;
     margin-bottom:-175px;
+    margin-left: 15px;
+    width: 325px;
+    box-shadow: 0 0 0.5em rgba(255, 255, 255, 0.342);
+    text-shadow: 3px 3px 3px black;
 }
 
 .myphoto{
@@ -82,16 +102,32 @@ h1{
     align-items: center;
     flex-direction: column;
     padding: 5px;
+    margin-top: 30px;
 }
 
 button{
-    width: 200px;
+    width: 340px;
     padding: 15px;
     border-radius: 10px;
     margin: 10px;
     font-size: 1.2em;
     font-weight: bolder;
     color: white;
-    background-color: #5c06b8ea;
+    background-color: #5c06b8;
     border: 0;
+    font-family: var(--font1);
+    text-shadow: 3px 3px 3px black;
+    box-shadow: 0 0 0.5em rgba(255, 255, 255, 0.438);
+}
+
+button:hover{
+    background-color: #350469;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
 }
