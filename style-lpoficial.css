@@ -25,6 +25,9 @@ body{
     background-position: center;
     background-color: black;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 header{
@@ -65,6 +68,8 @@ section{
     grid-template-areas: 
     ".myname .myphoto"
     ".buttons .myphoto";
+    
+    
 }
 
 h1{
