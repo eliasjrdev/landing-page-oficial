@@ -193,17 +193,11 @@ footer{
     }
 
     .myname{
-        margin-bottom: 1px;
-        margin-top: 10px;
-        position: relative;
-        right: 2%;
+        margin: auto;
     }
 
     .buttons{
-        position: relative;
-        right: 5%;
-        height: 150px;
-        top: -12%;
+        
     }
 
     footer{
