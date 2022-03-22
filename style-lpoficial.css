@@ -225,14 +225,10 @@ footer{
     }
 
     .myphoto{
-        width: 300px;
+        width: 60vw;
         position: relative;
         left: 10%;
         top: 3%;
-    }
-
-    .myphoto img{
-        width: 70vw;
     }
 
     .myname{
