@@ -219,7 +219,7 @@ footer{
         ".myname"
         ".buttons"; 
         height: 100vh;
-        width: 98%;
+        width: 100%;
         position: absolute;
         top: 65%;
     }
@@ -229,6 +229,10 @@ footer{
         position: relative;
         left: 10%;
         top: 3%;
+    }
+
+    .myphoto img{
+        width: 70vw;
     }
 
     .myname{
