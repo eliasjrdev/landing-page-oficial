@@ -186,10 +186,7 @@ footer{
     }
 
     .myphoto{
-        width: 300px;
-        position: relative;
-        left: 10%;
-        top: 3%;
+        margin: auto;
     }
 
     .myname{
