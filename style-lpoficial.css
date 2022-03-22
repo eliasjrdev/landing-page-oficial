@@ -196,11 +196,46 @@ footer{
         margin: auto;
     }
 
-    .buttons{
-        
+    footer{
+        display: none;
+    }
+}
+
+@media(max-width:250px){
+    body{
+        height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "section"
+        "footer";
+
+    }
+
+    section{
+        display: grid;
+        grid-template-areas: 
+        ".myphoto"
+        ".myname"
+        ".buttons"; 
+        height: 100vh;
+        width: 98%;
+        position: absolute;
+        top: 65%;
+    }
+
+    .myphoto{
+        width: 300px;
+        position: relative;
+        left: 10%;
+        top: 3%;
+    }
+
+    .myname{
+        margin: auto;
     }
 
     footer{
         display: none;
-    }
+    } 
 }
