@@ -238,6 +238,7 @@ footer{
         position: relative;
         left: 10%;
         top: 3%;
+        display: none;
     }
 
     .myname{
