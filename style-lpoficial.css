@@ -242,6 +242,10 @@ footer{
         margin: auto;
     }
 
+    button:hover{
+        background-color:initial;
+    }
+
     footer{
         display: none;
     } 
