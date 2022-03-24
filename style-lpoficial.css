@@ -208,7 +208,7 @@ footer{
     }
 }
 
-@media(min-width:326px){
+@media(max-width:150px){
     body{
         height: 100vh;
         display: grid;
