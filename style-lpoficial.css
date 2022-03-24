@@ -199,6 +199,10 @@ footer{
         margin-top: -20px;
     }
 
+    button:hover{
+        background-color: none;
+    }
+
     footer{
         display: none;
     }
