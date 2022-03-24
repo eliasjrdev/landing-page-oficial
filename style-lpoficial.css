@@ -246,6 +246,7 @@ footer{
 
     .buttons{
         margin: auto;
+        margin-top: 10px;
     }
 
     button:hover{
