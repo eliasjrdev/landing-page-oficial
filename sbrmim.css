@@ -1,8 +1,16 @@
+@charset "UTF-8";
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Londrina+Solid:wght@100&family=Permanent+Marker&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body{
     height: 100vh;
