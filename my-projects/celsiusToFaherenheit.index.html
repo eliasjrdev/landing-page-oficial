@@ -19,7 +19,7 @@
             <input type="number" name="celsius" id="campo1">
             
             <br>
-            <br><input type="submit" value="Transformar">
+            <br><input type="submit" value="Transformar" onclick="calcular()">
         </fieldset>
         <br>
         <fieldset>
@@ -33,7 +33,15 @@
             <input type="submit" value="Transformar">
 
         </fieldset>
+
+        <div class="modal">
+            <div onclick="fechar()" class="fechar">
+                <p>x</p>
+            </div>
+        </div>
+
     </section>
     
+    <script src="ctof.js"></script>
 </body>
 </html>

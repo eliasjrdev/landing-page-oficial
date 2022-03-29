@@ -73,3 +73,40 @@ input{
     
 }
 
+.modal{
+    background-color:wheat;
+    width: 50vw;
+    height: 50vh;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    display: none;
+    animation: animate;
+    animation-duration: 800ms;
+}
+
+.fechar{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background-color:black;
+    float: right;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fechar:hover{
+    background-color: red;
+}
+
+@keyframes animate{
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+
