@@ -114,7 +114,6 @@ h2{
 
 .myphoto{
     grid-area: myphoto;
-    
 }
 
 .buttons{
@@ -189,6 +188,11 @@ footer{
         margin: auto;
     }
 
+    img{
+        height: 100%;
+        width: 100%;
+    }
+
     .myname{
         margin: auto;
     }
@@ -237,6 +241,11 @@ footer{
         left: 10%;
         top: 3%;
         display: none;
+    }
+
+    img{
+        height: 100%;
+        width: 100%;
     }
 
     .myname{
