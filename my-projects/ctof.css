@@ -16,9 +16,8 @@ body{
 section{
     display: flex;
     flex-direction: column;
-    
+    padding: 10px;
     width: 80vw;
-    height:100vh;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
@@ -74,8 +73,8 @@ input{
 }
 
 .modal{
-    background-color:wheat;
-    width: 50vw;
+    background-color:#095255;
+    width: 55vw;
     height: 50vh;
     padding: 20px;
     position: absolute;
@@ -86,6 +85,7 @@ input{
     display: none;
     animation: animate;
     animation-duration: 800ms;
+    box-shadow: 0 0 2em rgba(255, 255, 255, 0.342);
 }
 
 .fechar{
@@ -102,11 +102,49 @@ input{
 }
 
 .fechar:hover{
-    background-color: red;
+    background-color: white;
+    color: black;
+}
+
+p:hover{
+    color: black;
+    font-weight: bolder;
 }
 
 @keyframes animate{
     from{opacity: 1;}
     from{opacity: 0;}
 }
+
+#conteudomodal{
+    border: 3px solid rgba(255, 255, 255, 0.753);
+    border-radius: 7px;
+    text-shadow: 3px 3px 3px black;
+    width: 35vw;
+    height: 35vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 2.3vw;
+}
+
+#equacao {
+    width: 15vw;
+    height: 3vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, +75%);
+    color: white;
+    font-size: 2vw;
+}
+
 
