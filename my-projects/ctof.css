@@ -133,7 +133,7 @@ p:hover{
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
-    font-size: 2.3vw;
+    font-size: 2em;
 }
 
 #equacao {
@@ -144,7 +144,7 @@ p:hover{
     left: 50%;
     transform: translate(-50%, +75%);
     color: white;
-    font-size: 2vw;
+    font-size: 2em;
 }
 
 
