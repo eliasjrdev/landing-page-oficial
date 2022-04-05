@@ -58,8 +58,8 @@ button{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 2.2vw;
-    font-family: var(--font1);
+    font-size: 100%;
+    font-family: var(--font2);
     padding: 10px;
     background-color: #001010;
     color: white;

@@ -51,14 +51,14 @@ p{
 }
 
 #campo1{
-    width: 10vw;
+    width: 100px;
     height: 4vh;
     padding: 5px;
     font-size: 1.3em;
 }
 
 #campo2{
-    width: 10vw;
+    width: 130px;
     height: 4vh;
     padding: 5px;
     font-size: 1.3em;
@@ -70,6 +70,10 @@ input{
     font-weight: bolder;
     border-radius: 7px;
     
+}
+
+.limpar{
+    margin-top: 10px;
 }
 
 .modal{
@@ -106,7 +110,7 @@ input{
     color: black;
 }
 
-p:hover{
+.fechar > p:hover{
     color: black;
     font-weight: bolder;
 }
