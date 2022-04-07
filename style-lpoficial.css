@@ -182,7 +182,6 @@ footer{
         width: 98%;
         position: absolute;
         top: 500px;
-        border: 2px solid red;
     }
 
     .myphoto{
@@ -192,12 +191,10 @@ footer{
     .myname{
         margin: auto;
         margin-top: 20px;
-        border: 2px solid red;
     }
 
     .buttons{
         margin: auto;
-        border: 2px solid red;
         margin-top: -130px;
     }
 
