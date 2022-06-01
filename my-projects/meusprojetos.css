@@ -25,21 +25,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(imgs-c-f/hi-tech-interface-54-4k.jpg);
+    background-image: linear-gradient(to right top, #000000, #074BC2, #DEA2A0, #B44118  );
     background-size: cover;
 }
 
 section{
     width: 70vw;
-    height: 60vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(imgs-c-f/hi-tech-interface-54-4k.jpg);
+    
     color: white;
     border-radius: 10px;
-    box-shadow: 2px 2px 2em rgba(247, 247, 247, 0.986);
+    box-shadow: 1px 1px 2em rgba(247, 247, 247, 0.301);
 }
 
 h1{
@@ -61,7 +61,7 @@ button{
     font-size: 100%;
     font-family: var(--font2);
     padding: 10px;
-    background-color: #001010;
+    background-color: black;
     color: white;
     border-radius: 8px;
     box-shadow: 0 0 0.5em rgba(255, 255, 255, 0.473);
@@ -70,7 +70,8 @@ button{
 }
 
 button:hover{
-    background-color:#022020;
+    background-color:#074BC2;
+    border: none;
 }
 
 a{
