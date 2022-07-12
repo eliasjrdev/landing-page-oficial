@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f2ff4ccba9.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="calculator.css">
+
+    <title>Iphone Calculator</title>
+
+</head>
+<body>
+    <h2>IPHONE CALCULATOR</h2>
+    <div class="calc">
+        <table>
+            <p id="result" style="text-align:right;"></p>
+            <tr>
+                <td><button class="gray" onclick="clean()">C</button></td>
+                <td><button class="gray" onclick="back()">&lt;</button></td>
+                <td><button class="gray" onclick="insert('%')">%</button></td>
+                <td><button class="orange" onclick="insert('/')"><i class="fa-solid fa-divide"></i></button></td>
+            </tr>
+
+            <tr>
+                <td><button class="blacktransparent" onclick="insert('7')">7</button></td>
+                <td><button class="blacktransparent" onclick="insert('8')">8</button></td>
+                <td><button class="blacktransparent" onclick="insert('9')">9</button></td>
+                <td><button class="orange" onclick="insert('*')" >x</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="blacktransparent" onclick="insert('4')">4</button></td>
+                <td><button class="blacktransparent" onclick="insert('5')">5</button></td>
+                <td><button class="blacktransparent" onclick="insert('6')">6</button></td>
+                <td><button class="orange" onclick="insert('-')">-</button></td>
+            </tr>
+
+            <tr>
+                <td><button class="blacktransparent" onclick="insert('1')">1</button></td>
+                <td><button class="blacktransparent" onclick="insert('2')">2</button></td>
+                <td><button class="blacktransparent" onclick="insert('3')">3</button></td>
+                <td><button class="orange" onclick="insert('+')">+</button></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><button style="width: 102px; border-radius: 30px;" class="blacktransparent" onclick="insert('0')">0</button></td>
+                <td><button class="blacktransparent" onclick="insert(',')">,</button></td>
+                <td><button class="orange" onclick="calculator()">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
