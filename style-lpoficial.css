@@ -20,7 +20,7 @@
 
 body{
     height: 100vh;
-    background-image: url(images/2.jpg);
+    background-image: url(images/img2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
@@ -161,100 +161,3 @@ footer{
     
 }
 
-@media(max-width:800px ) and (min-width:327px){
-    body{
-        height: 100vh;
-        display: grid;
-        grid-template-areas: 
-        "header"
-        "section"
-        "footer";
-
-    }
-
-    section{
-        display: grid;
-        grid-template-areas: 
-        ".myphoto"
-        ".myname"
-        ".buttons"; 
-        height: 100vh;
-        width: 98%;
-        position: absolute;
-        top: 500px;
-    }
-
-    .myphoto{
-        margin: auto;
-    }
-
-    .myname{
-        margin: auto;
-        margin-top: 20px;
-    }
-
-    .buttons{
-        margin: auto;
-        margin-top: -130px;
-    }
-
-    button:hover{
-        background-color:initial;
-    }
-
-    footer{
-        display: none;
-    }
-}
-
-@media(max-width:375px){
-    body{
-        height: 100vh;
-        display: grid;
-        grid-template-areas: 
-        "header"
-        "section"
-        "footer";
-
-    }
-
-    section{
-        display: grid;
-        grid-template-areas: 
-        ".myphoto"
-        ".myname"
-        ".buttons"; 
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        top: 400px;
-        margin-top: 20px;
-    }
-
-    .myphoto{
-       padding-top: 20px;
-    }
-
-    img{
-        height: 100%;
-        width: 100%;
-    }
-
-    .myname{
-        margin: auto;
-        margin-top: 20px;
-    }
-
-    .buttons{
-        margin: auto;
-        margin-top: 5px;
-    }
-
-    button:hover{
-        background-color:initial;
-    }
-
-    footer{
-        display: none;
-    } 
-}
