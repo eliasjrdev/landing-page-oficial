@@ -1,0 +1,11 @@
+
+@font-face{
+    font-family: principal;
+    src: url(imagesdgd/NaPecZTIAOhVxoMyOr9n_E7fdM3mDbRS.woff2)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: principal;
+}
